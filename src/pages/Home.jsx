@@ -14,7 +14,7 @@ const Home = () => {
       <section className="hero">
         <div className="hero-content">
           <h1>Premium Lawn Mowers</h1>
-          <p>Find the perfect mower for your lawn. From manual to robotic, we have it all.</p>
+          <p>Do you need your lawn cut and trimmed to perfection? Then we are here for you.</p>
         </div>
       </section>
 
