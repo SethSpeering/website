@@ -1,4 +1,4 @@
-# 🌱 LawnMower Pro - E-Commerce Site
+# TinyTeam - E-Commerce Site
 
 A modern, responsive e-commerce website for lawn mowers built with React and Vite.
 
