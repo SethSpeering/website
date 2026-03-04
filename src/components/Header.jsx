@@ -11,6 +11,8 @@ const Header = () => {
     <header className="header">
       <div className="header-content">
         <Link to="/" className="logo">
+          {/* logo image placed left of text; put a file named logo.png in public or adjust path */}
+          <img src="/logo.png" alt="Tiny Teams logo" className="logo-img" />
           Tiny Teams
         </Link>
         <nav className="nav">

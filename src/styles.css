@@ -47,6 +47,14 @@ body {
   color: white;
 }
 
+/* logo image next to text */
+.logo-img {
+  width: 40px;
+  height: auto;
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
 .nav {
   display: flex;
   gap: 2rem;
