@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
 import GoogleSignIn from './GoogleSignIn';
 
+// logo import – place the provided image in src/assets/logo.png
+import logo from '../assets/logo.png';
+
 const Header = () => {
   const { getCartCount } = useCart();
   const cartCount = getCartCount();
@@ -11,8 +14,8 @@ const Header = () => {
     <header className="header">
       <div className="header-content">
         <Link to="/" className="logo">
-          {/* logo image placed left of text; put a file named logo.png in public or adjust path */}
-          <img src="/logo.png" alt="Tiny Teams logo" className="logo-img" />
+          {/* imported logo file next to text */}
+          <img src={logo} alt="Tiny Teams logo" className="logo-img" />
           Tiny Teams
         </Link>
         <nav className="nav">
